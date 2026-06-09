@@ -1,73 +1,134 @@
-# React + TypeScript + Vite
+# 🍩 Glazing Society
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, premium donut brand landing page designed to showcase artisanal products through elegant visuals, engaging storytelling, and a polished user experience.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Glazing Society is a responsive front-end web project that combines modern UI design principles with immersive brand storytelling. The website was created to simulate the online presence of a luxury donut boutique, emphasizing aesthetics, product presentation, and customer engagement.
 
-## React Compiler
+The project focuses on creating a visually appealing digital experience while maintaining clean code architecture and responsive design practices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* ✨ Premium landing page design
+* 🍩 Interactive product showcase
+* 📱 Responsive user interface
+* 🎨 Custom branding and visual identity
+* 💌 Newsletter subscription section
+* ⭐ Customer testimonials
+* 🚀 Fast performance with Vite
+* 🌐 Deployment-ready architecture
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Frontend
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* Vite
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Development Tools
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* Git
+* GitHub
+* VS Code
+
+### Design & Content Workflow
+
+* Figma-inspired UI practices
+* AI-assisted ideation and design refinement
+
+---
+
+## Project Structure
+
+src/
+
+├── components/
+
+│ └── GlazingSociety.jsx
+
+├── assets/
+
+│ ├── images/
+
+│ └── branding assets
+
+├── App.tsx
+
+├── main.tsx
+
+└── index.css
+
+---
+
+## Design Philosophy
+
+The design aims to blend:
+
+* Luxury dessert branding
+* Editorial-style layouts
+* Soft pastel aesthetics
+* Modern e-commerce presentation
+* Story-driven product marketing
+
+The visual direction was inspired by premium food and lifestyle brands that prioritize experience as much as the product itself.
+
+---
+
+## AI-Assisted Development Statement
+
+This project was developed using a collaborative workflow that included AI-assisted tools such as ChatGPT and Claude for:
+
+* Design exploration
+* UI/UX ideation
+* Component structuring
+* Content refinement
+* Development troubleshooting
+
+All customization, integration, debugging, asset management, project organization, version control, and deployment decisions were personally implemented and validated throughout the development process.
+
+This project demonstrates the practical use of modern AI-assisted development workflows alongside traditional web development skills.
+
+---
+
+## Learning Outcomes
+
+Through this project, I strengthened my understanding of:
+
+* React component architecture
+* Frontend project organization
+* Responsive design principles
+* Asset management
+* Git and GitHub workflows
+* AI-assisted development practices
+* UI/UX implementation
+
+---
+
+## Future Enhancements
+
+* Shopping cart integration
+* Product filtering
+* Online ordering system
+* Customer authentication
+* Backend integration
+* Payment gateway support
+* Admin dashboard
+
+---
+
+## Author
+
+**Anushree Britto**
+
+AI & Data Science Engineering Student
+
+Passionate about AI, Web Development, Creative Writing, and Human-Centered Digital Experiences.
+
+*"Great products tell stories. Great interfaces help people experience them."*
